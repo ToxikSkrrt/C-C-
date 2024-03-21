@@ -331,3 +331,32 @@ public class DictionnaireDeMois
 
 #### Niveaux d'accès
 `public` / `private` / `protected` / `internal` (restreint au package)
+
+## METHODES (TEMP)
+
+```cs
+public class Carre
+{
+    private int longueur;
+    private int largeur;
+
+    public Carre(int longueur, int largeur)
+    {
+        this.longueur = longueur;
+        this.largeur = largeur;
+    }
+
+    public int Longueur
+    {
+        get
+        {
+            return this.longueur;
+        }
+
+        set
+        {
+            this.longueur = value;
+        }
+    }
+}
+```
